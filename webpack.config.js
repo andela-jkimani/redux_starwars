@@ -15,8 +15,8 @@ module.exports = {
       { test: /\.html$/, loader: 'file-loader?name=[name].[ext]' },
       { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' }
     ]
-  },
-  plugins: [
-    new webpack.NameModulesPlugin()
-  ]
+  }
+  // plugins: [
+  //   new webpack.NameModulesPlugin()
+  // ]
 };
